@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AppCenter.Crashes;
+using System;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
