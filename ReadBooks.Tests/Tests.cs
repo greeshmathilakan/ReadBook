@@ -29,8 +29,8 @@ namespace ReadBooks.Tests
         public void WelcomeTextIsDisplayed()
         {
             AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
-            app.Screenshot("Welcome screen.");
-
+            //app.Screenshot("Welcome screen.");
+            app.Repl();
             Assert.IsTrue(results.Any());
         }
     }
