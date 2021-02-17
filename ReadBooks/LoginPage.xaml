@@ -4,7 +4,7 @@
              x:Class="ReadBooks.LoginPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" >
-            <Button Text="Login"  BackgroundColor="Aqua"
+            <Button Text="Sign In"  BackgroundColor="Aqua"
                 Clicked="LoginButton_Clicked"/>
         </StackLayout>
         
